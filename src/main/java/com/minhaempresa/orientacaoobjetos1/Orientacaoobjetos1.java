@@ -16,5 +16,11 @@ public class Orientacaoobjetos1 {
         
         //Imprimo a quantidade de cômodos (por padrão:1)
         System.out.println(meuImovel.getNumComodos());
+        
+        //Alterando um atributo
+        meuImovel.setNumComodos(4);
+        
+        //Imprimo a quantidade após a alteração
+        System.out.println(meuImovel.getNumComodos());
     }
 }
